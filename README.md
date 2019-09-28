@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## This is a React fundamentals playground
+
+- CRUD App with Hooks
+- TODO list w/out Hooks
+- IMDB movie API using HOOKS
+- Basic search, map and filter using class-based components
+
 ## Available Scripts
 
 In the project directory, you can run:

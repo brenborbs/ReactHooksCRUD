@@ -20,7 +20,8 @@ export default class Navbar extends Component {
         id: 3,
         path: "/hooksMovie",
         text: "HooksMovie"
-      }
+      },
+      { id: 4, path: "/players", text: "PlayersFilter" }
     ]
   };
   navbarHandler = () => {

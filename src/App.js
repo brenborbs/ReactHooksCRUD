@@ -4,6 +4,7 @@ import RecordList from "./RecordApp/RecordList";
 import Users from "./Hooks/users";
 import HooksMovie from "./Hooks-API/hooksApi";
 import Navbar from "./Navbar";
+import Players from "./filterPlayers";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" exact component={Users} />
           <Route path="/recordList" exact component={RecordList} />
           <Route path="/hooksMovie" exact component={HooksMovie} />
+          <Route path="/players" exact component={Players} />
         </Switch>
       </div>
     </React.Fragment>
